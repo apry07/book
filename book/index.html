@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 도서 도우미</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <h1 class="main-title">📚 도서 도우미</h1>
+    <h3 class="madeby">made by 30214 오은석</h3>
+    <form id="main-search-form" class="main-search-form">
+      <input type="text" id="main-query" placeholder="검색어를 입력하세요" required />
+      <button type="submit">검색</button>
+    </form>
+    <button id="filter-toggle" class="filter-button">문제집 필터링 ON</button>
+  </div>
+
+  <div id="book-list" class="book-list"></div>
+
+  <script src="search.js"></script>
+</body>
+</html>
